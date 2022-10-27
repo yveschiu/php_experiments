@@ -1,0 +1,17 @@
+{
+    "name": "yveschiu/experiments",
+    "description": "some php experiments and exploring codes",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yveschiu\\Experiments\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yveschiu",
+            "email": "yves.s.c.chiu@gmail.com"
+        }
+    ],
+    "require": {}
+}
