@@ -7,7 +7,7 @@ A place to house some php experiments and exploring codes.
     Reflection class name:
     Yveschiu\Experiments\Entities\Profile
     --------------------
-    Reflection class properties:
+    Reflection class properties/variables:
     Array
     (
         [userName] => Array

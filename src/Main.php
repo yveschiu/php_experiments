@@ -26,7 +26,7 @@ class Main
         return (new ReflectionClass($class))->getName();
     }
 
-    public static function resolveClassVariable(object $class): array
+    public static function resolveClassVariables(object $class): array
     {
         $vars = [];
         $reflect = new ReflectionClass($class);
@@ -66,8 +66,8 @@ class Main
         echo self::resolveClassName($profile) . PHP_EOL;
         echo str_repeat('-', 20) . PHP_EOL;
 
-        echo 'Reflection class properties:' . PHP_EOL;
-        print_r(self::resolveClassVariable($profile));
+        echo 'Reflection class properties/variables:' . PHP_EOL;
+        print_r(self::resolveClassVariables($profile));
         echo str_repeat('-', 20) . PHP_EOL;
 
         echo 'Reflection class methods and their params:' . PHP_EOL;
