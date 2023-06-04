@@ -1,6 +1,6 @@
 # About This Repo
 
-A place to house some php experiments and exploring codes.
+Just a note on reflection concept.
 
 ## Reflection example output
 ### src/Main.php
